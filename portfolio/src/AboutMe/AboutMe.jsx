@@ -28,15 +28,27 @@ var AboutMe = () => {
             when I decided to take an introductory course in my hometown on web
             development and after that i was addicted to HTML and CSS!
             Fast-forward to today, and I've had the privilege of working at a
-            <a href="#">
+            <a
+              href="http://startupinc.co.in/"
+              target="_blank"
+              className="noUnderLine"
+            >
               <span className="greenText"> start up</span>
             </a>
             , a
-            <a href="#">
+            <a
+              href="https://www.highradius.com/"
+              target="_blank"
+              className="noUnderLine"
+            >
               <span className="greenText"> huge corporation</span>
             </a>
             ,and a
-            <a href="#">
+            <a
+              href="https://github.com/golfsierraAI/News"
+              target="_blank"
+              className="noUnderLine"
+            >
               <span className="greenText"> student-led project</span>
             </a>
             .

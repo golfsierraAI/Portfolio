@@ -8,12 +8,15 @@ import AboutMe from "./AboutMe/AboutMe";
 import Org from "./Organisations/Org";
 import Projects from "./Projects/Projects";
 import GetInTouch from "./GetInTouch/GetInTouch";
+import Footer from "./Footer/Footer";
 import { useEffect, useState } from "react";
 
 function App() {
   let [loading, setLoading] = useState(false);
   useEffect(() => {
-    setLoading(true);
+    setTimeout(() => {
+      setLoading(true);
+    }, 3670);
   }, []);
   return (
     <div className="App">
@@ -28,6 +31,7 @@ function App() {
             <Org />
             <Projects />
             <GetInTouch />
+            <Footer />
           </div>
         </div>
       ) : (
