@@ -6,7 +6,7 @@ import LeftPanel from "./LeftPanel/LeftPanel";
 import RightPanel from "./RightPanel/RightPanel";
 import AboutMe from "./AboutMe/AboutMe";
 import Org from "./Organisations/Org";
-import Projects from "./Projects/Projects";
+import Projects from "./Projects/Projects.jsx";
 import GetInTouch from "./GetInTouch/GetInTouch";
 import Footer from "./Footer/Footer";
 import { useEffect, useState } from "react";

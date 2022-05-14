@@ -1,0 +1,23 @@
+[
+  {
+    "key": 0,
+    "name": "Scrape to XLSX",
+    "desc": "A SpringBoot powered project to scrape data from interviewBit and save the data to a xlsx.We can also customise the search term for the data to be scraped",
+    "stack": "Java SpringBoot Selenium",
+    "href": "https://github.com/golfsierraAI/ScrapeDsaToSheet"
+  },
+  {
+    "key": 1,
+    "name": "Movie Streaming Site",
+    "desc": "A React based project to stream movies online with real-time data (Got the data from a pirate site by scraping it in fixed intervals)",
+    "stack": "SpringBoot React JavaScript Selenium Heroku",
+    "href": "https://github.com/golfsierraAI/moviesclickui"
+  },
+  {
+    "key": 2,
+    "name": "Leetcode Tracker",
+    "desc": "A SpringBoot powered project to scrape data from Blind 75 website and save the data to database. Display the data in a react based UI which helps to keep track of the questions solved",
+    "stack": "React SpringBoot Selenium",
+    "href": "https://github.com/golfsierraAI/leetcodeUI"
+  }
+]

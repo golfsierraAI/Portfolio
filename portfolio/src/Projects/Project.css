@@ -12,8 +12,11 @@
   width: 50rem;
 }
 .scraperImage {
-  width: 25rem;
+  width: 100%;
   z-index: -1;
+  background-image: url(E:\Projects\Portfolio\portfolio\src\/resources/github.jpg);
+  background-position: center;
+  background-size: cover;
 }
 .FeaturedProjects {
   margin: 0;
@@ -51,7 +54,7 @@
 }
 .ProjectImageCover1 {
   position: absolute;
-  height: 17rem;
+  height: 17.2rem;
   width: 25rem;
   background-color: aquamarine;
   opacity: 0.3;
@@ -61,7 +64,7 @@
 }
 .ProjectImageCover2 {
   position: absolute;
-  height: 17rem;
+  height: 17.3rem;
   width: 25rem;
   background-color: aquamarine;
   opacity: 0.3;
@@ -78,5 +81,5 @@
   color: #a8b2d1;
   font-weight: 600;
   word-spacing: 1rem;
-  font-size: 0.5rem;
+  font-size: 0.8rem;
 }

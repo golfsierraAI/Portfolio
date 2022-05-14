@@ -1,5 +1,6 @@
 import AOS from "aos";
 import { useEffect } from "react";
+import MyImage from "../resources/myImg.jpeg";
 import "./AboutMe.css";
 var AboutMe = () => {
   useEffect(() => {
@@ -48,16 +49,14 @@ var AboutMe = () => {
               href="https://github.com/golfsierraAI/News"
               target="_blank"
               className="noUnderLine"
+              rel="noreferrer"
             >
               <span className="greenText"> student-led project</span>
             </a>
             .
           </p>
           <a href="#">
-            <img
-              className="myImg"
-              src={process.env.PUBLIC_URL + "myImg.jpeg"}
-            ></img>
+            <img className="myImg" src={MyImage}></img>
           </a>
           <div className="myImgBorder"></div>
           <div

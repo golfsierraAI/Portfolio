@@ -1,4 +1,6 @@
 import "./Header.css";
+import Resume from "../resources/Resume.pdf";
+import Logo from "../resources/logo.png";
 var Header = () => {
   var reload = () => {
     window.location.reload();
@@ -26,11 +28,7 @@ var Header = () => {
   return (
     <div className="Header">
       <div className="logoContainer">
-        <img
-          onClick={reload}
-          className="logo"
-          src={process.env.PUBLIC_URL + "logo.png"}
-        />
+        <img onClick={reload} className="logo" src={Logo} />
       </div>
       <div className="linkContainer">
         <a onClick={ScrollToAbout} className="headerLinks">
@@ -45,7 +43,7 @@ var Header = () => {
         <a className="headerLinks" onClick={ScrollToContactMe}>
           <p className="headerLinks">Contact</p>
         </a>
-        <a href={process.env.PUBLIC_URL + "/Resume.pdf"} target="_blank">
+        <a href={Resume} target="_blank">
           <button className="resume">Resume</button>
         </a>
       </div>

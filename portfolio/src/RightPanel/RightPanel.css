@@ -1,5 +1,5 @@
 .rightCont {
-  height: 38vh;
+  height: 45vh;
   width: 4rem;
   padding: 0;
   margin: 0;
@@ -13,6 +13,10 @@
   user-select: none;
 }
 .email {
+  text-decoration: none;
   writing-mode: vertical-rl;
   color: #cadefc;
+}
+.email:hover {
+  color: aquamarine;
 }

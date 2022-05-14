@@ -1,4 +1,5 @@
 import "./Footer.css";
+import Merge from "../resources/merge.svg";
 var Footer = () => {
   var color = () => {
     var [icon] = document.getElementsByClassName("MergeIcon");
@@ -18,11 +19,12 @@ var Footer = () => {
         className="noUnderLine"
         href="https://github.com/golfsierraAI/Portfolio"
         target="_blank"
+        rel="noreferrer"
       >
         <p className="FooterText bottomlink">
           Designed by Brittany Chiang and Built by Gourav Sharma
         </p>
-        <img className="MergeIcon" src={process.env.PUBLIC_URL + "merge.svg"} />
+        <img className="MergeIcon" src={Merge} />
       </a>
     </div>
   );

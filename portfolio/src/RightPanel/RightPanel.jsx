@@ -1,8 +1,12 @@
 import "./RightPanel.css";
 var RightPanel = () => {
+  const email = "gsharma774962@gmail.com";
   return (
     <div className="rightCont">
-      <p className="email">gsharma774962@gmail.com</p>
+      <a className="email" href={`mailto: ${email}`}>
+        <p className="email">gsharma774962@gmail.com</p>
+      </a>
+
       <div className="line"></div>
     </div>
   );
