@@ -43,7 +43,7 @@
 .myImgBorder {
   width: 12rem;
   height: 12rem;
-  border: 2px solid aquamarine;
+  border: 0.1rem solid aquamarine;
   position: absolute;
   z-index: -1;
   right: -1rem;

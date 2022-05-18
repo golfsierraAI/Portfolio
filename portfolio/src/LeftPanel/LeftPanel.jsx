@@ -59,7 +59,7 @@ var LeftPanel = () => {
         <a
           onFocus={iconClicked}
           className="icons"
-          href="https://leetcode.com/golf_sierra/"
+          href="https://medium.com/@golfsierra"
           target="_blank"
           rel="noreferrer"
         >

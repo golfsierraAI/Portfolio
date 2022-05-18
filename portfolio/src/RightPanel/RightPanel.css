@@ -1,5 +1,5 @@
 .rightCont {
-  height: 45vh;
+  height: 25rem;
   width: 4rem;
   padding: 0;
   margin: 0;
@@ -19,4 +19,10 @@
 }
 .email:hover {
   color: aquamarine;
+}
+
+@media screen and (min-width: 900px) {
+  .rightCont {
+    height: 25rem
+  }
 }

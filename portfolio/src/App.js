@@ -21,7 +21,7 @@ function App() {
   return (
     <div className="App">
       {loading ? (
-        <div>
+        <div style={{width:"100vw"}}>
           <Header />
           <Intro />
           <LeftPanel />
